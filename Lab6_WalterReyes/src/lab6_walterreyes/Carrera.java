@@ -55,7 +55,7 @@ public class Carrera {
 
     @Override
     public String toString() {
-        return   "nombre: " + nombre + "\n";
+        return     nombre + "Jefe de carrera: "+jefe+ "\n" ;
     }
   
   
