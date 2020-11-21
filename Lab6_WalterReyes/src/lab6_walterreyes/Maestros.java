@@ -19,6 +19,13 @@ private Float salario;
 private int edad;
 private ArrayList <Clases> Clases = new ArrayList();
 
+    public Maestros(String nombre, String apellido, Float salario, int edad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.salario = salario;
+        this.edad = edad;
+    }
+
     public Maestros() {
     }
 
